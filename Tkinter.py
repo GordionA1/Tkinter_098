@@ -27,4 +27,7 @@ for i, mapel in enumerate(mata_pelajaran):
     entry.grid(row=i+1, column=1, padx=30, pady=3)
     entries.append(entry)
 
+def prediksi_prodi():
+    label_hasil.config(text="Hasil Prediksi: Teknologi Informasi")
+    
 root.mainloop()
