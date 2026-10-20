@@ -32,5 +32,8 @@ def prediksi_prodi():
     
 btn_prediksi = tk.Button(root, text="Hasil Prediksi", command=prediksi_prodi)
 btn_prediksi.grid(row=11, column=0, columnspan=2, pady=10)
+
+label_hasil = tk.Label(root, text="", font=("Times New Roman", 11, "bold"))
+label_hasil.grid(row=12, column=0, columnspan=2, pady=10)
     
 root.mainloop()
