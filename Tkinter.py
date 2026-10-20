@@ -30,4 +30,7 @@ for i, mapel in enumerate(mata_pelajaran):
 def prediksi_prodi():
     label_hasil.config(text="Hasil Prediksi: Teknologi Informasi")
     
+btn_prediksi = tk.Button(root, text="Hasil Prediksi", command=prediksi_prodi)
+btn_prediksi.grid(row=11, column=0, columnspan=2, pady=10)
+    
 root.mainloop()
